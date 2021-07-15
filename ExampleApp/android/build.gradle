@@ -28,7 +28,7 @@ allprojects {
         }
 
         maven { // <---- Add this block
-            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+            url "https://github.com/vector-im/jitsi_libre_maven/raw/main/android-sdk-3.1.0"
         }
         
         maven {
