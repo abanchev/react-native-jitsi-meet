@@ -61,6 +61,13 @@ public class RNJitsiMeetModule extends ReactContextBaseJavaModule {
                             .setFeatureFlag("kick-out.enabled",false)
                             .setFeatureFlag("chat.enabled",false)
                             .setFeatureFlag("add-people.enabled",false)
+                            .setFeatureFlag("raise-hand.enabled",false)
+                            .setFeatureFlag("help.enabled",false)
+                            .setFeatureFlag("lobby-mode.enabled",false)
+                            .setFeatureFlag("server-url-change.enabled",false)
+                            .setFeatureFlag("ios.recording.enabled",false)
+                            .setFeatureFlag("ios.screensharing.enabled",false)
+                            .setFeatureFlag("audio-only.enabled",false)
                             .setSubject(subject)
                             .setUserInfo(_userInfo)
                             .build();
